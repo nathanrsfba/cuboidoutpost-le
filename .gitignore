@@ -1,3 +1,31 @@
+# Various backups and garbage
+*~
+*.swp
+*.bak
+
+# Various local stuff that doesn't belong in the repo
+ESM
+ESM
+backups
+src/overrides/config/jei/world
+crash-reports
+defaultconfigs
+dumps
+fancymenu_data
+local
+logs
+mod_data
+options.txt
+patchouli_data.json
+resourcepacks
+rhino.local.properties
+saves
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+
+# Stuff ignored from the original repo
 SyncFromInstance.ps1
 SyncWithStandard.ps1
 src/kubejs/assets/kubejs/textures/block/example_block.png
