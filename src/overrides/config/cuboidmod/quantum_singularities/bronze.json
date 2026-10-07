@@ -3,5 +3,9 @@
   "colors": [
     "e0b43a",
     "a37a07"
-  ]
+  ],
+  "recipe": {
+      "identifier": "thermal:bronze_ingot",
+      "amount": 160
+  }
 }

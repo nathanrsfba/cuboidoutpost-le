@@ -3,5 +3,9 @@
   "colors": [
     "ababab",
     "878a87"
-  ]
+  ],
+  "recipe": {
+      "identifier": "immersiveengineering:ingot_steel",
+      "amount": 160
+  }
 }

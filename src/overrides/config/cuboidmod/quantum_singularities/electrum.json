@@ -3,5 +3,9 @@
   "colors": [
     "e6da6e",
     "f0d046"
-  ]
+  ],
+  "recipe": {
+      "identifier": "thermal:electrum_ingot",
+      "amount": 160
+  }
 }

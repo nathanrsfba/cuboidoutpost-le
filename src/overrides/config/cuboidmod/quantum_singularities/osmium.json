@@ -3,5 +3,9 @@
   "colors": [
     "cae4e0",
     "9fb1c2"
-  ]
+  ],
+  "recipe": {
+      "identifier": "mekanism:ingot_osmium",
+      "amount": 160
+  }
 }

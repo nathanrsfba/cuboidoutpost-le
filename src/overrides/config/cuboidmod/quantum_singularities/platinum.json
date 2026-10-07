@@ -3,5 +3,9 @@
   "colors": [
     "90aba6",
     "ccf0ea"
-  ]
+  ],
+  "recipe": {
+      "identifier": "exnihilosequentia:platinum_ingot",
+      "amount": 160
+  }
 }

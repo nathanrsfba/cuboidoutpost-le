@@ -3,5 +3,9 @@
   "colors": [
     "e7d498",
     "997857"
-  ]
+  ],
+  "recipe": {
+      "identifier": "thermal:nickel_ingot",
+      "amount": 160
+  }
 }

@@ -3,5 +3,9 @@
   "colors": [
     "cedce2",
     "8593a2"
-  ]
+  ],
+  "recipe": {
+      "identifier": "thermal:silver_ingot",
+      "amount": 160
+  }
 }

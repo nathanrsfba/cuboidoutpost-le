@@ -10,7 +10,7 @@
   },
   "production": {
 	"output": "minecraft:tuff",
-	"amountMult": 0.5,
-	"workTime": 2.0
+	"amountMult": 1.0,
+	"workTime": 1.0
   }
 }

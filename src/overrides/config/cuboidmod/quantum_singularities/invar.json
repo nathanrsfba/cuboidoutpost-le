@@ -3,5 +3,9 @@
   "colors": [
     "a6b6ba",
     "778487"
-  ]
+  ],
+  "recipe": {
+      "identifier": "thermal:invar_ingot",
+      "amount": 160
+  }
 }

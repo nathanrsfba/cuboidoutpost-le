@@ -3,5 +3,9 @@
   "colors": [
     "a1c6c2",
     "517c88"
-  ]
+  ],
+  "recipe": {
+      "identifier": "thermal:tin_ingot",
+      "amount": 160
+  }
 }
