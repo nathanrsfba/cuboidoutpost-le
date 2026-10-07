@@ -1,3 +1,18 @@
+# About this fork
+
+This fork was created mainly to address the lack of multiplayer support in Cuboid Outpost for 1.20.1. This is mainly built on the work of several other people.
+
+This uses version 0.3.3 of the Cuboid Support Mod by Leialoha. This version fixes the bugs causing multiplayer to fail, but unfortunately also revamped the singularity code, which introduced additional bugs.
+
+Firstly, many of the built-in singularities have broken recipes; they were uncraftable. I've worked around this by editing the configuration files to manually specify recipes that work.
+
+Secondly, singularities that were previously added using KubeJS would crash the game. I've fixed this by merging in fixes by Yoshi72 (collected up in the fork by BigFatWizard) which remove the KubeJS-based singularities and recreated them using the new singularity configuration mechanism built into cuboidmod.
+
+Also, the new singularities have different item IDs, and therefore broke some old recipes and quests; the Yoshi72 fixes have addressed as well.
+
+The end result should be a version of the pack that will well and truly, finally, run properly in multiplayer.
+
+
 # Cuboid Outpost (Luxury Edition) ModPack
 
 [Cuboid Outpost](https://www.curseforge.com/minecraft/modpacks/cuboid-outpost) was my first attempt at creating a ModPack for Minecraft. It's been amazingly well received - way beyond my hopes and expectations. This version of the pack is for players / communities with higher-spec machines to play on. 
