@@ -12,6 +12,31 @@ Also, the new singularities have different item IDs, and therefore broke some ol
 
 The end result should be a version of the pack that will well and truly, finally, run properly in multiplayer.
 
+# Installing
+
+Currently this version is in beta, and not released on CurseForge yet. If you just want to play singleplayer, just use the official release, as it works fine for that.
+
+To install the client:
+
+1. Download the release from the [releases](https://github.com/nathanrsfba/cuboidoutpost-le/releases) page
+2. Hit the "Import" button in the CurseForge launcher
+3. Select "Choose .zip file"
+4. Navigate to the file you downloaded
+5. Check the box and select "All Files"
+
+To install the server:
+
+1. Install Java 21
+2. Download [Forge installer](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.20.1.html) for Minecraft 1.20.1, version 47.2.20 or later
+3. Install the server somewhere. You can do it from the command line with a command similar to:
+
+   java -jar forge-1.20.1-47.2.20-installer.jar --installServer .
+
+   This will install it to the current directory. Adjust the filename to match the file you downloaded.
+4. From a client install, copy the `config`, `kubejs`, and `mods` folder to the server folder
+5. Start the server with run.bat or run.sh depending on whether you're on Windows or a Unix-like system.
+6. Edit eula.txt as directed and start the server again.
+7. Run the server or upload it to your hosting platform.
 
 # Cuboid Outpost (Luxury Edition) ModPack
 
