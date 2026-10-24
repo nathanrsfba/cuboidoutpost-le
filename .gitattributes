@@ -1,0 +1,11 @@
+* text=auto
+
+*.json text eol=lf
+*.json5 text eol=lf
+*.snbt text eol=lf
+*.cfg text eol=lf
+*.js text eol=lf
+*.toml text eol=lf
+
+*.bat text eol=crlf
+
