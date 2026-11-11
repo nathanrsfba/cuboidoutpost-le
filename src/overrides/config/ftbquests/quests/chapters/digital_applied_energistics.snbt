@@ -332,6 +332,8 @@
 				"The simple usage of an ME Pattern Provider is to attach it to a machine or inventory and up to 9 different Encoded Patterns for the thing(s) you want to be able to auto-craft using that machine."
 				""
 				"Adding a Crafting Card to an ME Pattern Provider will allow it to automatically request crafts for any missing ingredients, assuming you have the ability to autocraft them somewhere in your ME system."
+				""
+				"(You might possibly be from an alternate timeline where you're familiar with these things under the name \"ME Interface\". These are the new name, and \"ME Interface\" performs an unrelated function.\")"
 			]
 			id: "180567EB6F3528A8"
 			rewards: [
