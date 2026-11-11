@@ -14,7 +14,7 @@
 			hover: [
 				"A typical example of simple automation for a furnace."
 				""
-				"On top is an ME Interface with Encoded Patterns for processing recipes."
+				"On top is an ME Pattern Provider with Encoded Patterns for processing recipes."
 				""
 				"On the side is an ME Export Bus which is exporting Coal from the ME System into the furnace as fuel."
 				""
@@ -32,7 +32,7 @@
 			dev: false
 			height: 5.5d
 			hover: [
-				"An example of how you might choose to set up your ME Interfaces and Molecular Assemblers."
+				"An example of how you might choose to set up your ME Pattern Providers and Molecular Assemblers."
 				""
 				"Note that a block this size is bigger than would usually work if channels were enabled."
 			]
@@ -325,13 +325,13 @@
 		{
 			dependencies: ["4C2B4423040C29D4"]
 			description: [
-				"When it comes to autocrafting, the ME Interface is perhaps your most important ally."
+				"When it comes to autocrafting, the ME Pattern Provider is perhaps your most important ally."
 				""
 				"There is no real difference between the block form and the slimline form, except that in block form it can connect to multiple other blocks - particularly useful when working with Molecular Assemblers as you will see."
 				""
-				"The simple usage of an ME interface is to attach it to a machine or inventory and up to 9 different Encoded Patterns for the thing(s) you want to be able to auto-craft using that machine."
+				"The simple usage of an ME Pattern Provider is to attach it to a machine or inventory and up to 9 different Encoded Patterns for the thing(s) you want to be able to auto-craft using that machine."
 				""
-				"Adding a Crafting Card to an ME Interface will allow it to automatically request crafts for any missing ingredients, assuming you have the ability to autocraft them somewhere in your ME system."
+				"Adding a Crafting Card to an ME Pattern Provider will allow it to automatically request crafts for any missing ingredients, assuming you have the ability to autocraft them somewhere in your ME system."
 			]
 			id: "180567EB6F3528A8"
 			rewards: [
@@ -425,13 +425,13 @@
 		{
 			dependencies: ["180567EB6F3528A8"]
 			description: [
-				"Molecular Assemblers are where crafting recipes are constructed by your ME system when doing auto-crafting. Each Molecular Assembler can do a single craft at a time. In order to be told what to craft, a molecular assembler must be connected to an ME Interface containing the Encoded Pattern with the appropriate crafting recipe encoded into it."
+				"Molecular Assemblers are where crafting recipes are constructed by your ME system when doing auto-crafting. Each Molecular Assembler can do a single craft at a time. In order to be told what to craft, a molecular assembler must be connected to an ME Pattern Provider containing the Encoded Pattern with the appropriate crafting recipe encoded into it."
 				""
-				"It is possible to 'share' Molecular Assemblers between multiple ME Interfaces. The ME Interfaces will select an unused Molecular Assembler it has access to when a craft is requested. It is therefore quite common to use cuboid structures of ME Interfaces and Molecular Assemblers in a checkerboard pattern to try and maximise the amount of parallel crafting that can occur."
+				"It is possible to 'share' Molecular Assemblers between multiple ME Pattern Providers. The ME Pattern Providers will select an unused Molecular Assembler it has access to when a craft is requested. It is therefore quite common to use cuboid structures of ME Pattern Providers and Molecular Assemblers in a checkerboard pattern to try and maximise the amount of parallel crafting that can occur."
 				""
-				"An ME Interface Terminal can be used to remotely access ME Interfaces, which means you do not need direct access to an ME Interface to be able to change patterns in it."
+				"An ME Pattern Access Terminal can be used to remotely access ME Pattern Providers, which means you do not need direct access to an ME Pattern Provider to be able to change patterns in it."
 				""
-				"In addition to an ME Interface and Molecular Assembler, you will need some form of Crafting CPU available on your ME network, made up of at least one Crafting Storage unit."
+				"In addition to an ME Pattern Provider and Molecular Assembler, you will need some form of Crafting CPU available on your ME network, made up of at least one Crafting Storage unit."
 			]
 			id: "0B8E819D14DB5D63"
 			rewards: [{
@@ -550,9 +550,9 @@
 			description: [
 				"Blank Patterns are encoded in an ME Pattern Terminal. They can be encoded as crafting recipes, or as processing recipes."
 				""
-				"&aCrafting Recipe&f Encoded Patterns are essentially just the recipe you would use in a crafting grid. These patterns must be placed inside an ME Interface block on your ME Network, with at least one Molecular Assembler adjacent to it. The Molecular Assembler is where the craft actually occurs. You will also need some kind of Crafting Storage on your network to be able to hold the necessary information for the craft to be encoded before starting. The bigger the craft, the more crafting storage required."
+				"&aCrafting Recipe&f Encoded Patterns are essentially just the recipe you would use in a crafting grid. These patterns must be placed inside an ME Pattern Provider block on your ME Network, with at least one Molecular Assembler adjacent to it. The Molecular Assembler is where the craft actually occurs. You will also need some kind of Crafting Storage on your network to be able to hold the necessary information for the craft to be encoded before starting. The bigger the craft, the more crafting storage required."
 				""
-				"&aProcessing Recipe&f Encoded Patterns essentially contain the inputs to send to a machine, and the outputs expected for the ME System to know that the craft has completed. These patterns must be placed in an ME Interface attached to the machine that will carry out the processing. The resulting item(s) must be imported back into the ME system through other means (typically through the use of an ME Import Bus)"
+				"&aProcessing Recipe&f Encoded Patterns essentially contain the inputs to send to a machine, and the outputs expected for the ME System to know that the craft has completed. These patterns must be placed in an ME Pattern Provider attached to the machine that will carry out the processing. The resulting item(s) must be imported back into the ME system through other means (typically through the use of an ME Import Bus)"
 				""
 				"When creating patterns, the toggle button to the right of the pattern grid allows switching between crafting recipes (Crafting Table icon) and processing recipes (Furnace icon). You can drag items from JEI into the grid to create the patterns, or hover over items in JEI and press R for their recipes and add from there."
 			]
